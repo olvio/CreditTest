@@ -34,7 +34,7 @@ namespace Credit
                 new InterestRange { Id = 1, AmountFrom = 2000, AmountTo = 19999.99m, InterestRate = 3},
                 new InterestRange { Id = 2, AmountFrom = 20000,  AmountTo = 39000m, InterestRate = 4},
                 new InterestRange { Id = 3, AmountFrom = 40000, AmountTo = 59000, InterestRate = 5 },
-                new InterestRange { Id = 4, AmountFrom = 60000, AmountTo = 1000000000, InterestRate = 7 } // this should be discussed, but unlikely someone with such amount of money would ask for some credit via API request
+                new InterestRange { Id = 4, AmountFrom = 60000, AmountTo = 1000000000, InterestRate = 6 } // this should be discussed, but unlikely someone with such amount of money would ask for some credit via API request
   
             };
 
